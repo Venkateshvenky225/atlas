@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>atlas packers</title>
+    <style>
+        table, td{
+            border: 1px solid ;
+        }
+        form{
+        background-color: #548ea3;
+        padding: 10px;
+        }
+        h2 {
+            text-align: center;
+            background-color: white;
+            color: red;
+        }
+        button {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+            <h2>ATLAS PACKERS AND MOVERS</h2>
+     <table>
+       <tbody>
+         <tr>
+            <td colspan="2">
+                <a href="#reloc" id="reloc_info">Relocation-info</a> <br>
+                <a href="#personal" id="Personal-info">Personal-info</a><br>
+                <a href="#quote" id="quote-info">quote-info</a>
+            </td>   
+         </tr>
+         <tr>
+            <td colspan="2">Relocation Information</td>
+         </tr>
+         <tr>
+            <td><select>
+                <option value="select">Select your city</option>
+                <option value="chennai">chennai</option>
+                <option value="Banglore">banglore</option>
+                <option value="hyderabad">hyderabad</option>
+                <option value="mumbai">Mumbai</option>
+                </select>
+            </td>
+            <td>
+                <input type="date" id="date">
+            </td>
+            <tr>
+                <td>Select Category</td>
+                <td>
+                    <input type="radio" id="home"  name="Category">
+                    <label for="home">home relocation</label>
+                    <input type="radio" id="office" name="Category">
+                    <label for="office">Factory/Office Relocation</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                <input type="text" id="faddres" placeholder="from address"></td>
+                <td>
+                    <input type="text" id="taddress" placeholder="to address">
+                </td>
+            </tr>
+            <tr>
+                <td>Distance in km(approx)</td>
+                <td><input type="text" id="distance">
+                <label for="distance"></label></td>
+            </tr>
+            <tr>
+                <td colspan="2">Personal information</td>
+            </tr>
+            <tr>
+                <td>Customer Name</td>
+                <td>
+                    <input type="text" id="cname" placeholder="Enter the custome name" >
+                </td>
+            </tr>
+            <tr>
+                <td>Phone number</td>
+                <td>
+                    <input type="text" id="phno" placeholder="Enter the phone number">
+                </td>
+            </tr>
+            <tr>
+                <td>Emai ID</td>
+                <td>
+                    <input type="text" id="email" placeholder="Enter the mail id">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">Get a quote</td>
+            </tr>
+            <tr>
+                <td>Possible changes involved</td>
+               <td> <input type="checkbox" id="packing">
+                <label for="packing">packing charges</label>
+                <input type="checkbox" id="loading">
+                <label for="loading">loading charges</label>
+                <input type="checkbox" id="transportation">
+                <label for="transportation">Transportation charges</label>
+                <input type="checkbox" id="unloading">
+                <label for="unloading">unloading charges</label>
+                <input type="checkbox" id="unpacking">
+                <label for="unpacking">Unpacking charges</label>
+                <input type="checkbox" id="escort">
+                <label for="escort">Escort charges</label>
+                <input type="checkbox" id="octroi">
+                <label for="octroi">Octroi charges</label>
+            </td>
+            </tr>
+            <tr>
+                <td colspan="2">**Quote you receive will include service tax of 12.3%</td>
+            </tr>
+         </tr>
+       </tbody>
+     </table>
+     <button>GET A QUOTE</button>
+  </form>
+</body>
+</html>
